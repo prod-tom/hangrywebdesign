@@ -1,0 +1,52 @@
+section {padding: 50px 10px; height: 100vh;}
+
+body {font-family: Arial, sans-serif; background-color: #aec7c8}
+
+h1{background-color: #73a5a7; padding-top: 50px; padding-left: 20px;
+padding-bottom: 20px}
+
+h2{color: #165e62}
+
+footer{color: grey}
+
+nav {text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #000000;
+            padding: 20px 0;
+            z-index: 1000;}
+
+nav ul {list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;}
+
+nav ul li {display: inline;
+            margin: 0 15px;}
+
+nav ul li a {color: white;
+            text-decoration: none;
+            font-weight: bold;}
+
+nav ul li a:hover { text-decoration: underline;}
+
+table {border-collapse: collapse; font-size: 14px; table-layout: fixed;}
+th {background-color: #718888;color: #deeaea;padding: 10px; border:
+2px solid #000000}
+td {background-color: #ffffff; padding: 10px;text-align: center;
+border: 2px solid #000000}
+tr {border: 2px solid #000000}
+
+.drinks-menu {display: flex;
+                display: inline-block;
+                width: 40%; vertical-align:top;
+                margin-right: 40px; margin-left: 40px;
+                border-collapse: collapse;}
+.drinks-menu table{justify-content: center;table-layout: fixed; width:
+400px; column-width: fixed}
+
+.review-images {display: flex;justify-content:
+space-between;margin-top: 20px; margin-left: 20px; margin-right: 20px}
+.review-images img {width: 45%;height: 225px; border-radius:
+8px;border: 6px solid #73a5a7}
